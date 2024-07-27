@@ -1,0 +1,53 @@
+@{
+    Layout = "_LayoutAdmin";
+}
+<div class="">
+    <div class="bg-light m-2">
+        <h3 class='p-3 text-light bg-dark'>All posts</h3>
+        <div class="row m-0 py-2">
+            <div class="col-6">
+                <form action="">
+                    <div class="input-group mb-3">
+                        <label class="input-group-text" htmlFor="inputGroupSelect01">Search By Category</label>
+                        <select class="form-select" id="inputGroupSelect01">
+                            <option selected>Choose...</option>
+                            <option value="Category">Categories</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="col-4">
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Search here" />
+                </div>
+            </div>
+            <div class="col-2">
+                <a href='/addpost' class='btn btn-warning w-100 text-white'><i
+                    class="bi bi-plus-circle-fill"></i> Add Post</a>
+            </div>
+        </div>
+        <table class="table table-striped">
+            <thead class='table-dark'>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody class='text-secondary'>
+                <tr>
+                    <td>1</td>
+                    <td>Title Here</td>
+                    <td>Kategorisi Burada</td> 
+                    <td>
+                        <button class='btn btn-danger mx-1'><i class="bi bi-trash3-fill "></i></button>
+                        <button   class='btn btn-success mx-1'><i class="bi bi-pencil-square "></i></button>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+</div>

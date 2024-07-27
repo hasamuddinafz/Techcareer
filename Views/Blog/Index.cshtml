@@ -1,0 +1,49 @@
+
+@{
+    Layout = "_Layout";
+}
+<div>
+      <header class="d-flex justify-content-center align-items-center text-black bg-light py-5">
+        <div class="container text-center">
+          <h1 class="poppins-bold">My<span class="orange-color"> Blog </span> </h1>
+          <hr />
+        </div>
+      </header>
+
+      <div class="bg-light py-5">
+        <div class="container-lg">
+          <div class="row justify-content-between align-items-start flex-md-row-reverse">
+
+            <div class="col-md-4 aos-init aos-animate my-4" data-aos="fade-right" data-aos-delay="100">
+              <div class="bg-white p-4">
+                <h3 class="">Categories</h3>
+                <hr />
+                    <div class="list-group">
+                        <button type="button" class="list-group-item list-group-item-action">A second item</button>
+                        <button type="button" class="list-group-item list-group-item-action">A third button item</button>
+                        <button type="button" class="list-group-item list-group-item-action">A fourth button item</button>
+                        <button type="button" class="list-group-item list-group-item-action" disabled>A disabled button item</button>
+                    </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-8">
+                <div class="row bg-white my-4 aos-init aos-animate" data-aos="fade-right" data-aos-delay="100" key={post._id}>
+                  <div class="col-md-6"> <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*Jcj2tPjMTaIj9Hxn4_tg1g.jpeg" class="card-img-top img-fluid w-100 h-100" alt="Blog" /> </div>
+                  <div class="col-md-6 p-4">
+                    <div>
+                      <a href="#" class="text-decoration-none text-dark">
+                        <h3 class="text-2xl font-bold">What is React ?</h3>
+                      </a>
+                      <p class="text-gray-600">Hasamuddin Afzali | 22.07.2024 <span class="fw-bold text-danger"> Web Development </span></p>
+                    </div>
+                    <p class="text-dark"><p>React is an open-source JavaScript library created by Facebook. It’s a powerful Javascript User Interface (UI) Library and it’s a tool for building...</p></p>
+                    <a href="#" class="btn btn-sm btn-dark" target='_blank'>Read more</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

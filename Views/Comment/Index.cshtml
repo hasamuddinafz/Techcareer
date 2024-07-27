@@ -1,0 +1,49 @@
+@{
+    Layout = "_LayoutAdmin";
+}
+<div>
+    <div>
+        <div class="bg-light m-2">
+            <h3 class='p-3 text-light bg-dark'>All Comments</h3>
+            <div class="row m-0 d-flex justify-content-between py-3">
+                <div class="col-12">
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Search" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-3">
+                <table class="table table-striped w-100">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Comment</th>
+                            <th scope="col">Published On</th>
+                            <th scope="col">Blog Id</th>
+                            <th scope="col">Durumu</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Comment</td>
+                            <td>25.07.2024-12:00PM</td>
+                            <td>Hangi Blog Burasi</td>
+                            <td>Onaylanmadi</td>
+                            <td>
+                                <button class='btn btn-danger mx-1'>
+                                    <i class="bi bi-trash3-fill"></i> Delete
+                                </button>
+                                <button class='btn btn-success mx-1'>
+                                    <i class="bi bi-patch-check-fill"></i> Onayla
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

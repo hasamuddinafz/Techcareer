@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/lib/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+  <title>Admin Dashboard</title>
+</head>
+<body>
+
+<div class="d-flex">
+  <div class="sidebar bg-dark">
+    <div class="text-center mb-4">
+      <a class="navbar-brand bg-light p-5 fw-bold" href="home"><img src="~/img/logo.png" class="img-fluid" width="50px" height="50px" alt="">Admin Panel</a>
+    </div>
+    <ul class="list-unstyled my-5">
+      <li>
+        <a href="/dashboard" class="text-light text-decoration-none"><i class="bi bi-house-door-fill me-2"></i> Dashboard</a>
+      </li>
+      <li>
+        <a href="/post" class="text-light text-decoration-none"><i class="bi bi-file-earmark-fill me-2"></i> Posts</a>
+      </li>
+      <li>
+        <a href="/category" class="text-light text-decoration-none"><i class="bi bi-tags-fill me-2"></i> Categories</a>
+      </li>
+      <li>
+        <a href="/user" class="text-light text-decoration-none"><i class="bi bi-people me-2"></i> Users</a>
+      </li>
+      <li>
+        <a href="/admincontact" class="text-light text-decoration-none"><i class="bi bi-person-lines-fill me-2"></i> Contact</a>
+      </li>
+      <li>
+        <a href="/comment" class="text-light text-decoration-none"><i class="bi bi-chat-dots-fill me-2"></i> Comments</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Content -->
+  <div class="content w-100">
+    @RenderBody()
+  </div>
+</div>
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

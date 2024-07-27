@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/lib/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Hasamuddin.com</title>
+</head>
+<body>  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="home"><img src="~/img/logo.png" class="img-fluid" width="50px" height="50px" alt=""> Hasamuddin.com</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog" >Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    @RenderBody()
+    <footer class="bg-dark text-light">
+        <div class="container text-center p-4">
+            <img src="~/img/logo.png" alt="Hasamuddin.com Logo" width="50px" height="50px">
+            <hr>
+            <p>Hasamuddin.com &copy; 2024 Allright Reserved</p>
+        </div>
+    </footer>
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+
+.orange-color{
+    color: #F4650B !important;
+  }
+  .orange-bg{
+    background-color: #F4650B !important;
+  }
+  .logo{
+    width: 46px;
+  }
+  .hero-image{
+    width: 350px;
+  }
+  .btn-warning{
+    background-color: #F4650B !important;
+    border: 2px #F4650B !important;
+  }
+  .bg-gif{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('../img/hero-gif.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .navbar-brand{
+    color: #F4650B !important;
+  }
+  .btn-hero{
+    background-color: #F4650B !important;
+    border-radius: 20px !important;
+  }
+  .btn-orange{
+    background-color: #F4650B !important;
+    color: white !important;
+    border-radius: 0 !important;
+  }
+  .img-hero{
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+    border: 5px solid #F4650B;
+  }
+  .logo-login{
+    width: 100px;
+    display: block;
+  }
+  .sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #343a40; 
+    padding-top: 3rem;
+  }
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .sidebar ul li a {
+    display: block;
+    color: #ffffff; 
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+  .sidebar ul li a:hover {
+    background-color: #495057;
+  }
+  .content {
+    margin-left: 250px; 
+    padding: 20px;
+  }
+  /* Define scrollbar styles */
+  ::-webkit-scrollbar {
+    width: 12px; /* width of the scrollbar */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* color of the scrollbar track */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f84a00; /* color of the scrollbar handle */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F4650B; /* color of the scrollbar handle on hover */
+  }
+  

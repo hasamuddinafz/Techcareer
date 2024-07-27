@@ -1,0 +1,40 @@
+@{
+    Layout = "_LayoutAdmin";
+}
+<div>
+    <div class="bg-light m-2">
+        <h3 class='p-3 text-light bg-dark'>Add Post</h3>
+        <div class="p-3">
+            <form>
+                <div class="mb-3">
+                    <label htmlFor="title" class="form-label">Post Title</label>
+                    <input type="text" class="form-control" id="title" placeholder="Title"/>
+                </div>
+                <div class="mb-3">
+                    <label htmlFor="image" class="form-label">Header Image</label>
+                    <input type="file" class="form-control" id="image"/>
+                </div>
+                <div class="input-group mb-3">
+                    <label class="input-group-text" htmlFor="category">Category</label>
+                    <select class="form-select" id="category">
+                        <option value='choose'>Choose...</option>
+                        <option>Category</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label htmlFor="tags" class="form-label">Tags</label>
+                    <input type="text" class="form-control" id="tags" placeholder="tags" />
+                </div>
+                <div class="mb-3">
+                    <label htmlFor="description" class="form-label">Description</label>
+                    <textarea type="text" class="form-control" id="description" placeholder="Description"></textarea>
+                </div>
+
+                    <div class="d-flex justify-content-between">
+                        <button class='btn btn-success float-left my-3'>Add Post</button>
+                        <a href="/post" class='btn btn-danger float-right my-3'>Show All Posts</a>
+                    </div>
+            </form>
+        </div>
+    </div>
+</div>
